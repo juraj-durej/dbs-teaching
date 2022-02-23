@@ -1,0 +1,7 @@
+
+-Pocas polroka bude niekolko pisomiek o ktorych vam dopredu poviem + temy co na nich budu
+
+-Pocas polroka sa bude robit projekt SQL databazy s ktorou bude komunikovat 
+ vami naprogramovana aplikacia(este sa rozhodneme v akom jazyku)
+
+-Mozte ma kontaktovat na mail durejjuraj@gmail.com

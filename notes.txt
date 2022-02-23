@@ -11,6 +11,11 @@ Treba zohnat dobry dataset na postgres
 	https://www.w3schools.blog/data-types-postgresql 
 	https://www.postgresqltutorial.com/postgresql-sample-database/
 
+	-moj git a vscode online
+
+    https://github.com/juraj-durej/dbs-teaching
+	https://vscode.dev/
+
 	-V com programuju? pouzivaju Idcka ? 
 	-S akou DB robili ?	
 	-typy databaz + naco je ktora dobra
