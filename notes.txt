@@ -1,0 +1,79 @@
+
+Instalacia postgresql 
+
+	https://www.youtube.com/watch?v=RAFZleZYxsc&ab_channel=ProgrammingKnowledge2
+
+Treba zohnat dobry dataset na postgres
+
+
+1. poznať SQL príkazy, datove typy, typy databaz + naco je ktora dobra
+
+	https://www.w3schools.blog/data-types-postgresql 
+	https://www.postgresqltutorial.com/postgresql-sample-database/
+
+	-V com programuju? pouzivaju Idcka ? 
+	-S akou DB robili ?	
+	-typy databaz + naco je ktora dobra
+
+	-Spytat sa co je databáza, tabuľka, riadok, bunka.
+	
+	-Datove typy v postgres (Int, Long, Double, String, Date, Boolean, Json...)
+
+	-Vysvetlit ze DB je server, nie aplikacia. Povedat ako sa DB pouziva na IG/Snape
+	-Vysvetlit ako su data v DB reprezentovane/ukladane do pamate ()
+	-Vysvetlit create table + nastavenia stlpcov
+
+
+2. poznať poradie spracovania príkazov, nastaviť počiatočné hodnoty stĺpcov, dátové obmedzenie
+
+	https://www.tutorialspoint.com/postgresql/postgresql_operators.htm 
+
+	encryption a collation v postgres
+
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+15.
+
+16.
+
+17.
+
+18.
+
+19.
+
+20.
+
+21.
+
+
+ZAUJIMAVOSTI:
+
+-ako sa ukladaju do DB hesla
+-SQL injection
+-zaujimavosti o bezpecnosti
+
+
