@@ -35,6 +35,6 @@ ORDER BY
 
 select * from city
 where country_id in (
-    select country_id from country  -- musi sa tu pouzit country.country lebo by bol obsolete
+    select country_id from country  -- musi sa tu pouzit country.country lebo by bol obsolete co znamena, ze existuje 2 krat country_id
     where country.country = 'Afghanistan' or country.country = 'India'
 )
