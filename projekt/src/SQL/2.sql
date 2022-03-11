@@ -1,18 +1,3 @@
--- vo VScode si stiahneme rozsirenie SQLTools pre komunikaciu s postgresql
--- 	https://www.tutorialspoint.com/postgresql/postgresql_operators.htm
--- 	stiahneme si odtialto vydumpovanu databazu, ktoru importneme do nasej lokalnej
--- 		https://www.postgresqltutorial.com/postgresql-sample-database/
--- 	rozrarujeme zip aby sme mali subor dvdrental.tar
--- 	C:\Program Files\PostgreSQL\11\bin vlozime do premennej path v Systemovych premennych v nastaveniach pocitaca 
--- 	prikazom psql -U postgres v cmd sa dostaneme do rozhrania databazy postgresql
--- 	a prikazom: 
--- 	CREATE DATABASE movie_db;
--- 	nasledne stlacime ctrl+c a spustime prikaz:
--- 	pg_restore -c -U postgres -d movie_db -v "C:/Users/User/Downloads/dvdrental.tar"
--- 	prikazom \l zobrazime vsetky databazy na nasom postgresql servery
--- 	prikazom \c databaseName zmenime v psql databzu v ktorej operujeme
--- 	prikazom \dt zobrazim vsetky tabulky v db
--- 	select * from actor;   -   bodkociarka je dolezita
 SELECT first_name,
     last_name,
     email

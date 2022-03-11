@@ -3,11 +3,10 @@ Instalacia postgresql
 
 	https://www.youtube.com/watch?v=RAFZleZYxsc&ab_channel=ProgrammingKnowledge2
 
-	server:localhost
-	name:root
-	password:root
-	db:rental_shop
-
+	server: localhost
+	username: postgres
+	db: postgres->rental_shop
+	password: 0000
 
 Treba zohnat dobry dataset na postgres
 
@@ -39,14 +38,18 @@ Treba zohnat dobry dataset na postgres
 
 
 	vo VScode si stiahneme rozsirenie SQLTools pre komunikaciu s postgresql
-
 	https://www.tutorialspoint.com/postgresql/postgresql_operators.htm
+
+
+
+
+	 ########################			 597564 		  ###############################
+
 
 	stiahneme si odtialto vydumpovanu databazu, ktoru importneme do nasej lokalnej
 		https://www.postgresqltutorial.com/postgresql-sample-database/
 
 	rozrarujeme zip aby sme mali subor dvdrental.tar
-
 
 
 	C:\Program Files\PostgreSQL\11\bin vlozime do premennej path v Systemovych premennych v nastaveniach pocitaca 
@@ -55,17 +58,50 @@ Treba zohnat dobry dataset na postgres
 
 	a prikazom: 
 
+
 	CREATE DATABASE movie_db;
+
+	\l 
+
 
 	nasledne stlacime ctrl+c a spustime prikaz:
 
-	pg_restore -c -U postgres -d movie_db -v "C:/Users/User/Downloads/dvdrental.tar"
+    "C:/Program Files/PostgreSQL/10/bin/pg_restore" -c -U postgres -d movie_db -v "C:/Users/--moje meno--/Downloads/dvdrental.tar"
+
 
 	prikazom \l zobrazime vsetky databazy na nasom postgresql servery
 	prikazom \c databaseName zmenime v psql databzu v ktorej operujeme
 	prikazom \dt zobrazim vsetky tabulky v db
 
+
+
+
+
+
+\c movie_db
+
+
+
+
+
+
+
+
 	select * from actor;   -   bodkociarka je dolezita
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 3.
