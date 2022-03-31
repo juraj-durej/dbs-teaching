@@ -1,4 +1,4 @@
-\ c movie_db
+\c movie_db
 --
 SELECT first_name,
     last_name,
